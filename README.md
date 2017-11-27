@@ -1,12 +1,18 @@
 # HamSpam
 
 ####UI####
+
+
+
 1.UI Consists of uploadFile.html you need to write the mail into it and choose either you want it to be a HAM or SPAM
 2.Submit click will put that intothe training folder.
 3.This HTML page will work only in "IE" not on any other browser.
 
 
 ####Phython######
+
+
+
 1.Here we are creating a dictionary of the words using "make_Dictionary" def by passing the training train_dir path.
 2.Extracting the word count using "extract_features(mail_dir)"
 3.Prepare feature vectors per training mail and its labels
@@ -15,6 +21,9 @@
 
 
 ####How to execute the application########
+
+
+
 1.Phython can be executed directly on Anaconda ediotr Jupytr notebook.
 2.Need to change the path of the downloaded lingspam_public folder in the test_dir and DIR in the python code.
 3.Then simply you can execte the python file which will give the number of Ham and Spam emails.
