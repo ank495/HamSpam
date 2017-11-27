@@ -1,0 +1,16 @@
+<html style="background-color: aliceblue;"> 
+    <title>Upload Mail</title>
+    <head>
+        <script src="textArea.js"></script>
+        <link rel="stylesheet" type="text/css" href="textArea.css">
+    </head>
+    <body>
+  <form enctype="multipart/form-data" onSubmit="WriteToFile(this)">
+  <h1>Write mail here for Training</h1>
+    <textarea id="ms_word_filtered_html"></textarea><br/>
+    <input type="checkbox" name="HamSpam" value="ham" class="HamSpam">Ham<br/>
+    <input type="checkbox" name="HamSpam" value="spam" class="HamSpam">Spam<br/>
+    <input type="submit" value="submit">
+ </form>
+</body>
+</html>
